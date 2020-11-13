@@ -1,3 +1,5 @@
+#custom
+./package_lock.json
 # Logs
 logs
 *.log
