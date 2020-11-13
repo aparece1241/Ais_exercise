@@ -4,7 +4,7 @@ const bodyPraser = require('body-parser');
 const PORT = process.env.PORT || 3000;
 
 //get the connection;
-const mongoConnect = require('./models/mongodb_connect');
+const mongoConnect = require('./services/mongodb_connect');
 mongoConnect();
 
 //use body parser
